@@ -256,6 +256,7 @@ public class Solution {
         int[] ints = selectionSort(nums);
         //插入排序
 //        int[] ints1 = this.insertionSort(nums);
+//        int[] ints= QuickSort(nums,0,nums.length);
 
         for (int i :
                 ints) {
@@ -267,9 +268,9 @@ public class Solution {
     public static void main(String[] args) {
         int[] array = {3, 2, 1, 5, 6, 4};
         int k = 2;
-        Solution solution = new Solution();
-        int kthLargest = solution.findKthLargest(array, k);
-        System.out.println(kthLargest);
+//        Solution solution = new Solution();
+//        int kthLargest = solution.findKthLargest(array, k);
+//        System.out.println(kthLargest);
 
 
     }
