@@ -2,7 +2,7 @@ package 反转链表;
 
 public class ListNode {
     public ListNode next;
-    int val;
+    public int val;
 
     ListNode() {
     }
